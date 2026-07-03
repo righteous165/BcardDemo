@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Decorative floating background shapes (transparent "balloons") -->
+  <div class="bg-decor">
+    <span class="balloon balloon1"></span>
+    <span class="balloon balloon2"></span>
+    <span class="balloon balloon3"></span>
+    <span class="balloon balloon4"></span>
+    <span class="balloon balloon5"></span>
+    <span class="confetti confetti1"></span>
+    <span class="confetti confetti2"></span>
+    <span class="confetti confetti3"></span>
+    <span class="confetti confetti4"></span>
+  </div>
+
+  <!-- Partition 1: Header / Title -->
+  <header class="site-header">
+    <h1>🎉 Happy Birthday! 🎂</h1>
+    <p class="subtitle">A little surprise made just for you</p>
+  </header>
+
+  <main class="container">
+
+    <!-- Partition 2: User Info -->
+    <section class="panel user-info" id="user-info">
+      <h2>Who's celebrating?</h2>
+      <form id="userForm">
+        <label for="userName">Name</label>
+        <input type="text" id="userName" placeholder="Enter your name" required>
+
+        <label for="userPhone">Phone Number</label>
+        <input type="tel" id="userPhone" placeholder="Enter your phone number" required>
+
+        <button type="submit" class="btn primary-btn">Save Details</button>
+      </form>
+      <p id="greetingOutput" class="greeting-output"></p>
+    </section>
+
+    <!-- Partition 3: Birthday Card -->
+    <section class="panel card-section" id="card-section">
+      <h2>Tap the card to open it 🎁</h2>
+      <div class="card" id="birthdayCard">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🎈</span>
+            <p>Click to open</p>
+            <span>🎈</span>
+            <img src="Image.jpeg" alt="Birthday Girl❤️" class="card-image">
+          </div>
+          <div class="card-back">
+            <p id="cardMessage">
+              Thank you for always being that amazing person who brings joy to everyone around you. Your kindness, laughter, and warmth make the world a better place.
+              Continue to shine and spread happiness wherever you go. May this year bring you countless blessings, unforgettable memories, and all the love your heart can hold.
+              On this day, I wish you all the sucess, health, and happiness in the world. May your dreams take flight and your heart be filled with endless joy.
+              Wishing you a day filled with love, laughter, and everything
+              that makes you happiest. Happy Birthday Bestie! 🥳🎊<br> I love you❤️🥹
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partition 4: YouTube CTA -->
+    <section class="panel cta-section" id="cta-section">
+      <h2>One more surprise for you 🎵</h2>
+      <button id="clickMeBtn" class="btn cta-btn">Click Me!</button>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Made with 💖 just for you</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
