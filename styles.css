@@ -212,6 +212,7 @@ body {
   justify-content: center;
   padding: 1rem;
   font-weight: 600;
+  font-size: medium;
 }
 
 .card-front {
@@ -230,10 +231,10 @@ body {
 }
 
 .card-image {
-  width: 100%;
-  max-width: 250px;
-  max-height: 250px;
-  object-fit: contain;
+  width: 90%;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit:contain;
   border-radius: 12px;
 }
 
@@ -274,7 +275,7 @@ body {
     max-width: 100%;
   }
   .card {
-    width: 90vw;
+    width: 100vw;
     max-width: 360px;
   }
 }
