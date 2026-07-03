@@ -180,8 +180,8 @@ body {
 
 /* ---------- Birthday Card (flip) ---------- */
 .card {
-  width: 400px;
-  height: 400px;
+  width: min(90vw, 400px);
+  aspect-ratio: 1 / 1;
   margin: 1rem auto 0;
   perspective: 1000px;
   cursor: pointer;
@@ -230,6 +230,7 @@ body {
 }
 
 .card-image {
+  width: 100%;
   max-width: 250px;
   max-height: 250px;
   object-fit: contain;
@@ -264,12 +265,29 @@ body {
   }
 }
 
+@media (max-width: 700px) {
+  .container {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  #userForm {
+    max-width: 100%;
+  }
+  .card {
+    width: 90vw;
+    max-width: 360px;
+  }
+}
+
 @media (max-width: 480px) {
   .site-header h1 {
     font-size: 1.9rem;
   }
-  .card {
-    width: 90%;
-    max-width: 260px;
+  .panel {
+    padding: 1.4rem;
+  }
+  #userForm input,
+  .btn {
+    width: 100%;
   }
 }
