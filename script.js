@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Personalize the birthday card message
     cardMessage.innerHTML =
-      `Happy Birthday, ${name}!<br><br> Thank you for always being that amazing person who brings joy to everyone around you. Your kindness, laughter, and warmth make the world a better place. Continue to shine and spread happiness wherever you go. May this year bring you countless blessings, unforgettable memories, and all the love your heart can hold.<br> On this day, I wish you all the sucess, health, and happiness in the world. May your dreams take flight and your heart be filled with endless joy. Happy Birthday Bestie! 🥳🎊 <br>I love you❤️🥹`;
+      `Happy Birthday, ${name}!<br> Thank you for always being that amazing person who brings joy to everyone around you. Your kindness, laughter, and warmth make the world a better place. Continue to shine and spread happiness wherever you go. May this year bring you countless blessings, unforgettable memories, and all the love your heart can hold.<br> On this day, I wish you all the sucess, health, and happiness in the world. May your dreams take flight and your heart be filled with endless joy. Happy Birthday Bestie! 🥳🎊 <br>I love you❤️🥹`;
   });
 
   // ---------- Partition 3: Flip Card ----------
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- Partition 4: YouTube CTA ----------
   const clickMeBtn = document.getElementById('clickMeBtn');
   clickMeBtn.addEventListener('click', () => {
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+    window.open('https://youtu.be/nOxziA7KWBg', '_blank');
   });
 
 });
